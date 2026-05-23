@@ -388,6 +388,11 @@
       color: white;
       border-color: #2b3137;
     }
+    .social-links a.linkedin-link:hover {
+      background: #0077b5;
+      color: white;
+      border-color: #0077b5;
+    }
     .contact-form {
       flex: 1;
     }
@@ -424,7 +429,13 @@
       text-align: center;
       border-top: 1px solid #1e293b;
     }
-    .github-link-footer {
+    .credit-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .credit-link {
       color: #94a3b8;
       text-decoration: none;
       font-size: 0.9rem;
@@ -432,15 +443,15 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      transition: color 0.2s;
+      transition: all 0.2s;
       background: #1e293b;
       padding: 0.5rem 1.2rem;
       border-radius: 40px;
     }
-    .github-link-footer i {
+    .credit-link i {
       font-size: 1.2rem;
     }
-    .github-link-footer:hover {
+    .credit-link:hover {
       color: #ffffff;
       background: #2d3a4e;
     }
@@ -514,7 +525,7 @@
       box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.1);
       overflow: hidden;
     ">
-      <img src="https://ui-avatars.com/api/?background=2563eb&color=fff&bold=true&size=280&name=Khezar+Rapal&length=2&rounded=true" alt="Khezar Jhon C. Rapal" style="
+      <img src="c:\Users\USER\OneDrive\Documents\assignment\0.jpg" alt="Khezar Jhon C. Rapal" style="
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -629,6 +640,7 @@
               <a href="https://www.instagram.com/khezarj14/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
               <a href="https://www.tiktok.com/@tttgghk6" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
               <a href="https://github.com/gghkttt102-design" target="_blank" class="github-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/khezar-jhon-a38b77410/" target="_blank" class="linkedin-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
           <div class="contact-form">
@@ -659,9 +671,14 @@
   
   <div class="github-credit">
     <div class="container">
-      <a href="https://github.com/gghkttt102-design" target="_blank" class="github-link-footer">
-        <i class="fab fa-github"></i> github.com/gghkttt102-design
-      </a>
+      <div class="credit-links">
+        <a href="https://github.com/gghkttt102-design" target="_blank" class="credit-link">
+          <i class="fab fa-github"></i> github.com/gghkttt102-design
+        </a>
+        <a href="https://www.linkedin.com/in/khezar-jhon-a38b77410/" target="_blank" class="credit-link">
+          <i class="fab fa-linkedin-in"></i> linkedin.com/in/khezar-jhon-a38b77410
+        </a>
+      </div>
     </div>
   </div>
 
